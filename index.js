@@ -7,7 +7,7 @@ const userRouter = require('./routes/userRoute')
 const todoRouter = require('./routes/todoRoute')
 
 const app = express();
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 const URI = process.env.URI
 
 // middlewares
