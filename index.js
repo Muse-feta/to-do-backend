@@ -8,7 +8,7 @@ const todoRouter = require('./routes/todoRoute')
 
 const app = express();
 const PORT = process.env.PORT || 3000
-const URI = process.env.URI
+const URI = process.env.URI || "mongodb+srv://Muse:199544@cluster0.uhj9o5z.mongodb.net/to_do?retryWrites=true&w=majority"
 
 // middlewares
 app.use(express.json());
